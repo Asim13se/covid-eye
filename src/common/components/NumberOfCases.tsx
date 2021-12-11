@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import LightTextStyle from '../styling/LightTextStyle';
 import Colors from '../styling/Colors';
+import Indicator from './Indicator';
 
 export type NumberOfCasesProps = {
   title: string;
@@ -14,12 +15,7 @@ function NumberOfCases(props: NumberOfCasesProps) {
     <View>
       <View style={styles.titleRow}>
         {props.indicatorColor ? (
-          <View
-            style={[
-              styles.indicatorView,
-              {backgroundColor: props.indicatorColor},
-            ]}
-          />
+          <Indicator indicatorColor={props.indicatorColor} />
         ) : null}
         <Text style={styles.titleText}>{props.title}</Text>
       </View>
@@ -33,12 +29,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 15,
-  },
-  indicatorView: {
-    borderRadius: 2,
-    width: 14,
-    height: 14,
-    marginEnd: 10,
   },
   titleText: {
     ...LightTextStyle,

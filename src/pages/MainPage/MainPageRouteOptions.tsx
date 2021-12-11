@@ -4,7 +4,7 @@ import ReportCaseButton from './components/ReportCaseButton';
 import React from 'react';
 import {MainPageProps} from './MainPage';
 
-export const MainPageRouteOptions: NativeStackNavigationOptionsFunction<
+const MainPageRouteOptions: NativeStackNavigationOptionsFunction<
   MainPageProps
 > = ({navigation}) => {
   const handlePressRightButton = () => {
@@ -15,3 +15,5 @@ export const MainPageRouteOptions: NativeStackNavigationOptionsFunction<
     headerRight: () => <ReportCaseButton onPress={handlePressRightButton} />,
   };
 };
+
+export default MainPageRouteOptions;

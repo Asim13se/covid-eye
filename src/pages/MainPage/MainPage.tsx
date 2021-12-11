@@ -1,12 +1,12 @@
 import React from 'react';
 import {ScrollView, StyleSheet} from 'react-native';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
+import {useQuery} from 'react-query';
 import {MainStackParamList} from '../../navigation/types/MainStackParamList';
 import GlobalCasesStatisticsCard from './components/GlobalCasesStatisticsCard/GlobalCasesStatisticsCard';
 import Colors from '../../common/styling/Colors';
 import TopInfectedCountriesCard from './components/TopInfectedCountriesCard/TopInfectedCountriesCard';
 import Spacer from '../../common/components/Spacer';
-import {useQuery} from 'react-query';
 import fetchCovid19Summary from '../../common/utils/fetchCovid19Summary';
 
 export type MainPageProps = {} & NativeStackScreenProps<
@@ -26,8 +26,8 @@ function MainPage(props: MainPageProps) {
       />
       <Spacer height={30} />
       <TopInfectedCountriesCard
-        isLoading={isLoading}
         countryCasesList={data?.Countries}
+        isLoading={isLoading}
       />
     </ScrollView>
   );

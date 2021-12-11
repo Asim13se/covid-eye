@@ -8,7 +8,8 @@ import ReportCasePage, {
   ReportCasePageRouteName,
 } from '../../pages/ReportCasePage/ReportCasePage';
 import {MainStackParamList} from '../types/MainStackParamList';
-import {MainPageRouteOptions} from '../../pages/MainPage/MainPageRouteOptions';
+import MainPageRouteOptions from '../../pages/MainPage/MainPageRouteOptions';
+import CountriesListPageRouteOptions from '../../pages/CountriesListPage/CountriesListPageRouteOptions';
 
 const Stack = createNativeStackNavigator<MainStackParamList>();
 
@@ -23,6 +24,7 @@ function MainNavigator() {
       <Stack.Screen
         name={CountriesListPageRouteName}
         component={CountriesListPage}
+        options={CountriesListPageRouteOptions}
       />
       <Stack.Screen name={ReportCasePageRouteName} component={ReportCasePage} />
     </Stack.Navigator>
