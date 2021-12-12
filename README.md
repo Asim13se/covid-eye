@@ -12,6 +12,9 @@ Covid Eye is an app to view Covid-19 cases globally or per counrty, the data in 
 - Report Covid19 case
 
 ### Screenshots
+Global cases            |Top 5 countires in Covid19 cases            |Countries List            |Report case
+:-------------------------:|:-----------------------------:|:-------------------------:|:-------------------------:
+![screenshot 1](./assets/screenshots/screenshot_1.png)  |  ![screenshot 2](./assets/screenshots/screenshot_2.png)  |  ![screenshot 3](./assets/screenshots/screenshot_3.png)  |  ![screenshot 4](./assets/screenshots/screenshot_4.png)
 
 ### How to run the app locally
 - to run the app on iOS run `npx pod-install` then run `npm run ios` in the terminal
