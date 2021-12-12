@@ -3,8 +3,8 @@ import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {Menu, MenuItem} from 'react-native-material-menu';
 import Colors from '../../../common/styling/Colors';
-import Indicator from '../../../common/components/Indicator';
 import {SortCountriesBy} from '../../../common/types/SortCountriesBy';
+import CaseTypeMenuItem from '../../../common/components/CaseTypeMenuItem';
 
 type Props = {
   sortBy: SortCountriesBy;
@@ -35,40 +35,35 @@ function SortCountries(props: Props) {
     hideMenu();
   };
   return (
-    <View>
-      <Menu
-        visible={isMenuVisible}
-        anchor={
-          <TouchableOpacity onPress={handlePressSortIcon}>
-            <Icon name={'sort'} size={22} color={Colors.iconColor} />
-          </TouchableOpacity>
-        }
-        onRequestClose={hideMenu}>
-        <MenuItem onPress={handlePressSortByConfirmed}>
-          <View style={styles.item}>
-            <Indicator indicatorColor={Colors.confirmedCase} />
-            <Text>{'Confirmed'}</Text>
-          </View>
-        </MenuItem>
-        <MenuItem onPress={handlePressSortByDeath}>
-          <View style={styles.item}>
-            <Indicator indicatorColor={Colors.deathCase} />
-            <Text>{'Death'}</Text>
-          </View>
-        </MenuItem>
-        <MenuItem onPress={handlePressSortByRecovered}>
-          <View style={styles.item}>
-            <Indicator indicatorColor={Colors.recoveredCase} />
-            <Text>{'Recovered'}</Text>
-          </View>
-        </MenuItem>
-        <MenuItem onPress={handlePressSortByName}>
-          <View style={styles.item}>
-            <Text>{'Name'}</Text>
-          </View>
-        </MenuItem>
-      </Menu>
-    </View>
+    <Menu
+      visible={isMenuVisible}
+      anchor={
+        <TouchableOpacity onPress={handlePressSortIcon}>
+          <Icon name={'sort'} size={22} color={Colors.iconColor} />
+        </TouchableOpacity>
+      }
+      onRequestClose={hideMenu}>
+      <CaseTypeMenuItem
+        onPress={handlePressSortByConfirmed}
+        indicatorColor={Colors.confirmedCase}
+        caseType={'Confirmed'}
+      />
+      <CaseTypeMenuItem
+        onPress={handlePressSortByDeath}
+        indicatorColor={Colors.deathCase}
+        caseType={'Death'}
+      />
+      <CaseTypeMenuItem
+        onPress={handlePressSortByRecovered}
+        indicatorColor={Colors.recoveredCase}
+        caseType={'Recovered'}
+      />
+      <MenuItem onPress={handlePressSortByName}>
+        <View style={styles.item}>
+          <Text>{'Name'}</Text>
+        </View>
+      </MenuItem>
+    </Menu>
   );
 }
 
