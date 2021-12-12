@@ -11,12 +11,15 @@ import {MainStackParamList} from '../types/MainStackParamList';
 import MainPageRouteOptions from '../../pages/MainPage/MainPageRouteOptions';
 import CountriesListPageRouteOptions from '../../pages/CountriesListPage/CountriesListPageRouteOptions';
 import ReportCaseRouteOptions from '../../pages/ReportCasePage/ReportCaseRouteOptions';
+import MainNavigatorScreenOptions from '../../common/styling/MainNavigatorScreenOptions';
 
 const Stack = createNativeStackNavigator<MainStackParamList>();
 
 function MainNavigator() {
   return (
-    <Stack.Navigator initialRouteName={MainPageRouteName}>
+    <Stack.Navigator
+      initialRouteName={MainPageRouteName}
+      screenOptions={MainNavigatorScreenOptions}>
       <Stack.Screen
         name={MainPageRouteName}
         component={MainPage}

@@ -11,9 +11,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		326FED3CB7224CA183DA1EB3 /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDDD0608F9874E29893C58BF /* OpenSans.ttf */; };
+		4E43C4F7B503401F9B731B50 /* OpenSans_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A29C65E035491E942DE370 /* OpenSans_light.ttf */; };
 		6172F2D35A4C3AA820D92908 /* libPods-covidEye.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-covidEye.a */; };
 		7EF68E3733C33B6898317E18 /* libPods-covidEye-covidEyeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-covidEye-covidEyeTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A36BEC7B074A4BF7848D7963 /* OpenSans_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FB726BD76F34D8487C98B58 /* OpenSans_medium.ttf */; };
+		BD0E154F720E44648902B2AC /* OpenSans_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D978004E6FC4890A3AA3A51 /* OpenSans_bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +34,40 @@
 		00E356EE1AD99517003FC87E /* covidEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = covidEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* covidEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = covidEyeTests.m; sourceTree = "<group>"; };
+		0FB726BD76F34D8487C98B58 /* OpenSans_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSans_medium.ttf; path = ../assets/fonts/OpenSans_medium.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* covidEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = covidEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = covidEye/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = covidEye/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = covidEye/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = covidEye/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = covidEye/main.m; sourceTree = "<group>"; };
+		149EC037700D45E99215DCDB /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-covidEye-covidEyeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidEye-covidEyeTests.release.xcconfig"; path = "Target Support Files/Pods-covidEye-covidEyeTests/Pods-covidEye-covidEyeTests.release.xcconfig"; sourceTree = "<group>"; };
+		298F8DDB307447119C6A44A4 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		33461A21818C41F296B68ED1 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		35B0FB808A6B4F8682E29FB1 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		3C46EC932B164B4CAFEF3E54 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		4990D68F9E1A48AAA6A2FB8F /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		51A29C65E035491E942DE370 /* OpenSans_light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSans_light.ttf; path = ../assets/fonts/OpenSans_light.ttf; sourceTree = "<group>"; };
+		5CCABBE637AF4EBF9D65F96C /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-covidEye.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-covidEye.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-covidEye-covidEyeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidEye-covidEyeTests.debug.xcconfig"; path = "Target Support Files/Pods-covidEye-covidEyeTests/Pods-covidEye-covidEyeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = covidEye/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82304CF553E4465782A98B21 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		8A669FBFCFC1409187167FD4 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		8D978004E6FC4890A3AA3A51 /* OpenSans_bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSans_bold.ttf; path = ../assets/fonts/OpenSans_bold.ttf; sourceTree = "<group>"; };
+		A39063BB9336483599BAFD8A /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-covidEye-covidEyeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-covidEye-covidEyeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD59EE854B4149E38B316753 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		C0A881CF5CF3F2B244570E2A /* Pods-covidEye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidEye.debug.xcconfig"; path = "Target Support Files/Pods-covidEye/Pods-covidEye.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E53FEEFFF94F0B807F601E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		C5E258C24F1247CA90F13CF6 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		CE211C2519E74D84BAC914A2 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		D00AAFFCFCFDA5787532823F /* Pods-covidEye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidEye.release.xcconfig"; path = "Target Support Files/Pods-covidEye/Pods-covidEye.release.xcconfig"; sourceTree = "<group>"; };
+		DDDD0608F9874E29893C58BF /* OpenSans.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSans.ttf; path = ../assets/fonts/OpenSans.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F35BE0CE64214812BB01A35B /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		FC485C121C304C5FA0BD323B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +146,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				C8A5D4551816403E800E11F6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,6 +162,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C8A5D4551816403E800E11F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D978004E6FC4890A3AA3A51 /* OpenSans_bold.ttf */,
+				51A29C65E035491E942DE370 /* OpenSans_light.ttf */,
+				0FB726BD76F34D8487C98B58 /* OpenSans_medium.ttf */,
+				DDDD0608F9874E29893C58BF /* OpenSans.ttf */,
+				3C46EC932B164B4CAFEF3E54 /* AntDesign.ttf */,
+				5CCABBE637AF4EBF9D65F96C /* Entypo.ttf */,
+				FC485C121C304C5FA0BD323B /* EvilIcons.ttf */,
+				4990D68F9E1A48AAA6A2FB8F /* Feather.ttf */,
+				C1E53FEEFFF94F0B807F601E /* FontAwesome.ttf */,
+				A39063BB9336483599BAFD8A /* FontAwesome5_Brands.ttf */,
+				F35BE0CE64214812BB01A35B /* FontAwesome5_Regular.ttf */,
+				82304CF553E4465782A98B21 /* FontAwesome5_Solid.ttf */,
+				AD59EE854B4149E38B316753 /* Fontisto.ttf */,
+				CE211C2519E74D84BAC914A2 /* Foundation.ttf */,
+				35B0FB808A6B4F8682E29FB1 /* Ionicons.ttf */,
+				C5E258C24F1247CA90F13CF6 /* MaterialCommunityIcons.ttf */,
+				149EC037700D45E99215DCDB /* MaterialIcons.ttf */,
+				298F8DDB307447119C6A44A4 /* Octicons.ttf */,
+				8A669FBFCFC1409187167FD4 /* SimpleLineIcons.ttf */,
+				33461A21818C41F296B68ED1 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +197,6 @@
 				6C97AB639B58BBB4B15BBE30 /* Pods-covidEye-covidEyeTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-covidEye-covidEyeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +296,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				BD0E154F720E44648902B2AC /* OpenSans_bold.ttf in Resources */,
+				4E43C4F7B503401F9B731B50 /* OpenSans_light.ttf in Resources */,
+				A36BEC7B074A4BF7848D7963 /* OpenSans_medium.ttf in Resources */,
+				326FED3CB7224CA183DA1EB3 /* OpenSans.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

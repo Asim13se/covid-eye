@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, TouchableOpacity} from 'react-native';
 import Colors from '../../../common/styling/Colors';
 import {useNavigation} from '@react-navigation/native';
+import PrimaryFontFamily from '../../../common/styling/PrimaryFontFamily';
 
 type Props = {
   onPress: () => Promise<boolean>;
@@ -36,6 +37,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: '#fff',
     textAlign: 'center',
+    fontFamily: PrimaryFontFamily,
   },
 });
 

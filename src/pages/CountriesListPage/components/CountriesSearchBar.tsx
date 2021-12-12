@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet, TextInput, View, ViewStyle} from 'react-native';
 import Colors from '../../../common/styling/Colors';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import PrimaryFontFamily from '../../../common/styling/PrimaryFontFamily';
 
 type Props = {
   text: string;
@@ -48,6 +49,7 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.2,
     shadowRadius: 1.41,
+    fontFamily: PrimaryFontFamily,
   },
   searchIcon: {
     position: 'absolute',

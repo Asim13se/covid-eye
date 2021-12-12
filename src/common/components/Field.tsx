@@ -3,6 +3,7 @@ import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Colors from '../styling/Colors';
 import LightTextStyle from '../styling/LightTextStyle';
+import PrimaryFontFamily from '../styling/PrimaryFontFamily';
 
 type Props<T> = {
   label: string;
@@ -43,6 +44,7 @@ const styles = StyleSheet.create({
     color: Colors.text1,
     fontSize: 16,
     marginBottom: 10,
+    fontFamily: PrimaryFontFamily,
   },
   field: {
     backgroundColor: '#f1f2f5',

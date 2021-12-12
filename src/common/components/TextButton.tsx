@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity} from 'react-native';
+import PrimaryFontFamily from '../styling/PrimaryFontFamily';
 
 type Props = {
   text: string;
@@ -18,6 +19,7 @@ const styles = StyleSheet.create({
   text: {
     color: '#0645AD',
     fontSize: 18,
+    fontFamily: PrimaryFontFamily,
   },
   touchable: {
     paddingHorizontal: 5,

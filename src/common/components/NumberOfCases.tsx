@@ -3,6 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import LightTextStyle from '../styling/LightTextStyle';
 import Colors from '../styling/Colors';
 import Indicator from './Indicator';
+import PrimaryFontFamily from '../styling/PrimaryFontFamily';
 
 export type NumberOfCasesProps = {
   title: string;
@@ -38,6 +39,7 @@ const styles = StyleSheet.create({
     color: Colors.text1,
     fontWeight: '600',
     fontSize: 14,
+    fontFamily: PrimaryFontFamily,
   },
 });
 

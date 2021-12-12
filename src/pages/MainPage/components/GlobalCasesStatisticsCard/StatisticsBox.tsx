@@ -5,6 +5,7 @@ import Colors from '../../../../common/styling/Colors';
 import NumberOfCases, {
   NumberOfCasesProps,
 } from '../../../../common/components/NumberOfCases';
+import PrimaryFontFamily from '../../../../common/styling/PrimaryFontFamily';
 
 type Props = NumberOfCasesProps & {};
 
@@ -49,6 +50,7 @@ const styles = StyleSheet.create({
     color: Colors.text1,
     fontWeight: '600',
     fontSize: 14,
+    fontFamily: PrimaryFontFamily,
   },
 });
 

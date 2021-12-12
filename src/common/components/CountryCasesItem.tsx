@@ -5,6 +5,7 @@ import {CountryCases} from '../types/CountryCases';
 import NumberOfCases from './NumberOfCases';
 import Colors from '../styling/Colors';
 import formatNumberOfCases from '../utils/formatNumberOfCases';
+import PrimaryFontFamily from '../styling/PrimaryFontFamily';
 
 type Props = {
   countryCases: CountryCases;
@@ -54,6 +55,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     marginStart: 10,
+    color: Colors.text1,
+    fontFamily: PrimaryFontFamily,
   },
   row: {
     flexDirection: 'row',
