@@ -9,6 +9,7 @@ Covid Eye is an app to view Covid-19 cases globally or per counrty, the data in 
 - View global COVID19 cases
 - View top 5 countries in Covid-19 cases
 - List of all countries with Covid-19 cases anlaytics
+- Report Covid19 case
 
 ### Screenshots
 
